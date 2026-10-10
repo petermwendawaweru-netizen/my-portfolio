@@ -1,0 +1,179 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Personal portfolio of Waweru Peter, a Computer Science student passionate about technology and web development.">
+
+    <title>Waweru Peter | Web Developer</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header class="site-header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Waweru<span>Peter.</span></a>
+
+            <button class="menu-toggle"
+                    id="menu-toggle"
+                    aria-label="Open navigation"
+                    aria-expanded="false"
+                    aria-controls="nav-links">
+                ☰
+            </button>
+
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+            <button class="theme-toggle" id="theme-toggle"
+                    aria-label="Switch to light theme">
+                ☀
+            </button>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero section -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <p class="eyebrow">HELLO, WORLD 👋</p>
+
+                <h1>I'm <span>Waweru Peter</span></h1>
+
+                <h2>A Computer Science Student & Web Developer</h2>
+
+                <p class="hero-description">
+                    I build clean, responsive websites and enjoy turning
+                    ideas into useful digital experiences.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button primary-button" href="#projects">
+                        Explore My Work
+                    </a>
+
+                    <a class="button secondary-button" href="#contact">
+                        Contact Me
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-card">
+                <div class="code-icon">&lt;/&gt;</div>
+                <p class="card-label">CURRENTLY LEARNING</p>
+                <h3>Building for the web</h3>
+                <p>HTML · CSS · JavaScript</p>
+            </div>
+        </section>
+
+        <!-- About section -->
+        <section class="section container" id="about">
+            <p class="eyebrow">GET TO KNOW ME</p>
+            <h2 class="section-title">About Me</h2>
+
+            <div class="about-card">
+                <p>
+                    I'm a Computer Science student passionate about
+                    technology, problem-solving and web development.
+                    I enjoy learning new tools and creating projects
+                    that solve real problems.
+                </p>
+
+                <p>
+                    My goal is to keep improving my skills, build useful
+                    digital products and collaborate with people on
+                    meaningful projects.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills section -->
+        <section class="section container" id="skills">
+            <p class="eyebrow">WHAT I WORK WITH</p>
+            <h2 class="section-title">My Skills</h2>
+
+            <div class="skills-grid">
+                <article class="skill-card">
+                    <h3>HTML5</h3>
+                    <p>Semantic website structure and accessible content.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>CSS3</h3>
+                    <p>Responsive layouts, styling and animations.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>JavaScript</h3>
+                    <p>Interactive features and DOM manipulation.</p>
+                </article>
+
+                <article class="skill-card">
+                    <h3>Problem Solving</h3>
+                    <p>Breaking down problems and finding practical solutions.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- Projects section -->
+        <section class="section container" id="projects">
+            <p class="eyebrow">WHAT I'VE BEEN BUILDING</p>
+            <h2 class="section-title">My Projects</h2>
+        </section>
+
+        <!-- Contact section -->
+        <section class="section container" id="contact">
+            <p class="eyebrow">LET'S CONNECT</p>
+            <h2 class="section-title">Have a project in mind?</h2>
+
+            <div class="contact-card">
+                <p>
+                    Have an opportunity, a question or an idea?
+                    Reach out to me and let's talk.
+                </p>
+
+                <a class="button primary-button"
+                   href="mailto:petermwendawaweru@gmail.com">
+                    Email Me
+                </a>
+
+                <a class="social-link"
+                   href="tel:+254798383431">
+                    Call Me
+                </a>
+
+                <a class="social-link"
+                   href="https://wa.me/254798383431"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    WhatsApp ↗
+                </a>
+
+                <a class="social-link"
+                   href="https://instagram.com/its._.peter_?srtk=bG04NDBuODc2Y3k0"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Instagram ↗
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>© <span id="year"></span> Waweru Peter. Built with HTML, CSS & JavaScript.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
